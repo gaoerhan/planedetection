@@ -1,0 +1,10 @@
+{
+"name": "com.seedreality.planedetection",
+"displayName": "Plane Detection",
+"description": "detect planes",
+"version": "1.0.0",
+"unity": "2019.4.16f1c1",
+"license": "MIT",
+"dependencies": {
+ }
+}
