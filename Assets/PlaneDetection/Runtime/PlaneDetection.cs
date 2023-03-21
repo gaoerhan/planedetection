@@ -59,7 +59,7 @@ namespace detect
                 if (currentDatas[0] != -1)
                 {
                     PlaneFloor.SetActive(true);
-                    PlaneFloor.transform.localPosition = new Vector3(0, 1.5f, 0);
+                    PlaneFloor.transform.localPosition = new Vector3(0, currentDatas[0], 0);
 
                     //"_MainTex"是主要的漫反射纹理，也能通过 mainTextureScale 属性访问
                     //"_BumpMap"是法线贴图
@@ -76,7 +76,7 @@ namespace detect
                 if (currentDatas[1] != -1)
                 {
                     PlaneDesk.SetActive(true);
-                    PlaneDesk.transform.localPosition = new Vector3(0, -2f, 0);
+                    PlaneDesk.transform.localPosition = new Vector3(0, currentDatas[1], 0);
                 }
                 else
                 {
